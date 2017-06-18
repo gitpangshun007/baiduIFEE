@@ -1,0 +1,36 @@
+.wrap{width:800px;height: 260px;margin: 60px auto;
+	background-color: #15dbff;padding:10px 22px;border-radius: 12px;box-shadow: 0 0 6px;}
+.left{width:60%;position: relative;overflow: hidden;
+display: inline-block;margin-bottom: 20px;}
+.upload{display: none;}
+.artist{font-size: 20px;color:#444444;line-height: 14px;}
+.time{font-size: 12px;}
+.broadcast{margin-left:4px;cursor: pointer;}
+.music_control{width:36%;position: absolute;right:0;
+top:90px;}
+.music_item{margin-left: 18px;display: inline-block;
+	text-decoration: none;color:#000;}
+.progress{height: 3px;background-color: #7e7e7e;margin-top: 10px;position: relative;}
+.move_progress{background-color: green;height:3px;width:0;}
+.circle{width:3px;height: 3px;border-radius: 50%;
+	background-color: orange;border:3px solid orange;
+position: absolute;left:0;top:-2px;}
+.bottom{margin-top: 70px;}
+.favorite,.play,.next,.trash{cursor:pointer;}
+.playcontrol{float:right;margin-right: 10px;}
+.fav{float:left;}
+.trash{margin-left: 20px;}
+.next{margin-left: 20px;}
+
+/*右边区域*/
+.right{display: inline-block;width: 34%;height: 100%;
+overflow: hidden;border-radius: 50%;margin-left: 30px;}
+/*喇叭调节音量区域*/
+.horn{position: absolute;width:30px;height: 80px;
+	background-color: #f9f9f9;left:124px;top:20px;
+	padding:4px;display: none;border-radius: 4px;}
+.horn_bar{width:3px;height: 100%;background-color:#c3c3c3;margin:0 auto; position: relative;}
+.horn_progress{width:3px;background-color:green;height: 0;position: absolute;
+bottom:0;}
+.horn_circle{width:2px;height: 2px;border:2px solid blue;border-radius: 50%;background-color: blue;
+bottom:0;position: absolute;left:-1px;}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>douban_music</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" />
+	<link rel="stylesheet" href="css/iconfont2/iconfont.css" />
+</head>
+<body>
+	<div class="wrap">
+		<div class="left">
+<!-- 添加文件 -->
+		    <input type="file" class="upload">
+			<h2 class="topic">背叛</h2>
+			<p class="artist">曹格</p>
+			<audio src="song/曹格 - 背叛.mp3"></audio>
+<!-- 音乐控制器区域 -->
+			<div class="control">
+				<span class="timeStart">00:00/</span>
+				<span class="timeEnd">5:21</span>
+				<span class="broadcast"><i class='iconfont icon-laba'></i></span>
+			</div>
+<!-- 音乐文件控制区域 -->
+            <div class="music_control">
+            	<a href='javascript:void(0)' class="music_item arrow" title='顺序播放'><i class="iconfont icon-jiantou"></i></a>
+            	<a href='javascript:void(0)' class="music_item download" title='下载'><i class="iconfont icon-xiazai"></i></a>
+            	<a href='javascript:void(0)' class="music_item add" title='添加歌曲'><i class="iconfont icon-Add"></i></a>
+            	<a href='javascript:void(0)' class="music_item loop" title='循环播放'><i class="iconfont icon-xunhuan"></i></a>
+            </div>
+<!-- 进度条区域 -->
+            <div class="progress">
+            	<div class="move_progress"></div>
+            	<div class="circle"></div>
+            </div>
+<!-- 收藏/删除区域 -->
+            <div class="bottom">
+            	<div class="fav">
+            		<span class="favorite"><i class="iconfont icon-shoucang"></i></span>
+            		<span class="trash"><i class="iconfont icon-trash"></i></span>
+            	</div>
+            	<div class="playcontrol">
+            		<span class="play" title="播放"><i class="iconfont icon-bofang"></i></span>
+            		<span class="next"><i class="iconfont icon-xiayige"></i></span>
+            	</div>
+            </div>
+<!-- 喇叭音量调节区域 -->
+            <div class="horn">
+            	<div class="horn_bar">
+            		<div class="horn_progress"></div>
+            		<div class="horn_circle"></div>
+            	</div>
+            </div>
+		</div>
+		<div class="right">
+			<div>
+				<img src="images/曹格.jpg" width="300" height="300" alt="">
+			</div>
+		</div>
+	</div>
+	<script src='js/script.js'></script>
+</body>
+</html>

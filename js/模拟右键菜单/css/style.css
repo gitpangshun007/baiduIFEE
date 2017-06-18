@@ -1,0 +1,8 @@
+*{margin:0;padding:0;text-decoration: 0;list-style: none;}
+#wrap{height: 400px;width:95%;background-color: orange;border:1px solid lightblue;
+border-radius: 6px;margin:40px auto;position: relative;text-align: center;line-height: 400px;}
+#menu{position: absolute;visibility: hidden;}
+ul{width:160px;height: auto;display: block;border:2px solid #000;border-radius: 6px;}
+li{display: block;width:160px;height: 40px;background-color: lightblue;
+border-bottom:1px solid #000;text-align: center;line-height: 40px;}
+li:hover{background-color: lightgreen;cursor: pointer;}

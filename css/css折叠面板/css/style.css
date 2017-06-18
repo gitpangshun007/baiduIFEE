@@ -1,0 +1,9 @@
+.tab{overflow: hidden;margin:0 auto;width:600px;}
+.tab label h2{background-color: orange;
+	border:1px solid lightblue;border-radius: 8px;text-align: center;padding:4px;}
+.tab div{text-align: left;}
+.tab input[type='radio']{display: none;}
+
+.tab input+div{padding:0 15px;height:0;transition:all 0.8s;overflow: hidden;}
+.tab input:checked + div{height:auto;transition:all 0.8s;}
+

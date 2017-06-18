@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Roll</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<h1>点击旋转或者等待自动旋转</h1>
+	<div class="wrap">
+		<div id="container">
+			<img src="img/6.jpg" alt="" />
+			<img src="img/6.jpg" alt="" />
+			<img src="img/6.jpg" alt="" />
+			<img src="img/6.jpg" alt="" />
+			<img src="img/6.jpg" alt="" />
+			<img src="img/6.jpg" alt="" />
+			<img src="img/6.jpg" alt="" />
+			<img src="img/6.jpg" alt="" />
+		</div>
+	</div>
+	<script>
+		var container=document.getElementById('container');
+		var timer;
+		var indexPic=0;
+		function rollPic(){
+          var value=(indexPic++) * -40;
+          container.style.transform='rotateY('+value+'deg)';
+          console.log(value);
+		}
+		timer=setInterval(function(){
+			rollPic();
+
+		}, 1000);
+		container.addEventListener('mouseover', function(){
+			clearInterval(timer);
+		});
+		container.addEventListener('mouseout', function(){
+			timer=setInterval(function(){
+			rollPic();
+
+		}, 1000);
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+#wrap{width:600px;height: 400px;box-sizing: border-box;
+	border:1px solid lightblue;margin:60px auto;position: relative;}
+#container{position: absolute;left:8%;top:12%;}
+img:hover{-webkit-filter:blur(2px);}
+#cover{background-color: orange;height: 260px;width: 400px;top:20px;left:50px;
+    position: absolute;opacity: 0;}
+#container:hover #cover{opacity: 0.2;transition:all 2s ease-in-out;}
+#border{height: 260px;width: 400px;top:20px;left:50px;
+	position: absolute;text-align: center;line-height: 260px;}
+h2{font-size: 40px;font-weight: 700;
+	background: -webkit-linear-gradient(left, blue, yellow 25%, blue 50%, yellow 75%, blue 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+/*这两个属性可以让背景填充到文字里面*/
+background-size: 200% 200%;
+animation: stream 2s infinite linear;
+opacity: 0;
+	}
+#container:hover h2{opacity: 1;transition:all 2s ease-in-out;}
+
+@keyframes stream{
+	0%{background-position: 0;}
+	100%{background-position: 100%;}
+}
+#border:before{content:'';border-width:3px 0;height: 100%;width: 0;position: absolute;
+top:0;left:0;}
+#container:hover #border:before{content:'';height: 99%;width: 100%;
+border:3px solid red;transition: all 1s ease-in;border-width:3px 0;
+}
+#border:after{content:'';border-width:0 3px;height: 0%;width: 100%;position: absolute;
+top:0;left:0;}
+#container:hover #border:after{content:'';height: 100%;width: 99%;
+border:3px solid red;transition: all 1s ease-in;border-width:0 3px;
+}

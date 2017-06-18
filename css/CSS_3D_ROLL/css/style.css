@@ -1,0 +1,14 @@
+.wrap{width: 100%;min-height: 400px;background-color: orange;
+border: 1px solid lightblue;position: relative;perspective:4000px;}
+#container{width:300px;height: 300px;position:absolute;
+	transform-style:preserve-3d;left:40%;bottom:10%;transition:all 1s;}
+img{width:300px;height: 300px;position: absolute;top:0;}
+img:nth-child(1) { transform: rotateY(0deg) translateZ(600px); }
+img:nth-child(2) { transform: rotateY(40deg) translateZ(600px); }
+img:nth-child(3) { transform: rotateY(80deg) translateZ(600px); }
+img:nth-child(4) { transform: rotateY(120deg) translateZ(600px); }
+img:nth-child(5) { transform: rotateY(160deg) translateZ(600px); }
+img:nth-child(6) { transform: rotateY(200deg) translateZ(600px); }
+img:nth-child(7) { transform: rotateY(240deg) translateZ(600px); }
+img:nth-child(8) { transform: rotateY(280deg) translateZ(600px); }
+img:nth-child(9) { transform: rotateY(320deg) translateZ(600px); }

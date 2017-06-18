@@ -1,0 +1,56 @@
+*{margin:0;padding:0;}
+#wrap{position:absolute;top:calc(50vh - 100px);
+	left:calc(50vw - 100px);width:200px;height: 200px;}
+
+#circle{position: absolute;
+	    top:30px;
+	    left:30px;
+	    border:60px solid rgb(255,139,189);
+	    border-radius: 50%;
+	    border-left-color: rgb(255,41,140);
+	    border-bottom-color: rgb(255,41,140);
+}
+#left{
+	  position: absolute;
+	  top:30px;
+	  left:30px;
+	  z-index: 3;
+	  border:60px solid rgb(255,139,189);
+	  border-radius: 50%;
+	  border-left-color:transparent;
+	  animation:leftRoll 1s infinite linear;
+}
+@keyframes leftRoll{
+	0%{transform:rotate(0deg);}
+	25%{transform:rotate(180deg);}
+	50%{transform:rotate(180deg);}
+	75%{transform:rotate(360deg);}
+	100%{transform:rotate(360deg);}
+}
+
+#right{
+	  position: absolute;
+	  top:30px;
+	  left:30px;
+	  z-index: 2;
+	  border:60px solid rgb(255,41,140);
+	  border-radius: 50%;
+	  border-left-color:transparent;
+	  border-bottom-color:transparent;
+	  animation:rightRoll 1s infinite linear;
+}
+@keyframes rightRoll{
+	0%{transform:rotate(0deg);}
+	25%{transform:rotate(180deg);}
+	50%{transform:rotate(180deg);}
+	75%{transform:rotate(360deg);}
+	100%{transform:rotate(360deg);}
+}
+
+#border{width: 180px;height: 180px;border:2px solid rgb(255,41,140);
+border-left-color:transparent;border-radius: 50%;
+animation:rollBorder 2s infinite linear;}
+@keyframes rollBorder{
+	0%{transform:rotate(0deg);}
+	100%{transform:rotate(360deg);}
+}
