@@ -17,7 +17,7 @@ http://htmlpreview.github.io/?https://github.com/gitpangshun007/baiduIFEE/blob/m
 http://htmlpreview.github.io/?https://github.com/gitpangshun007/baiduIFEE/blob/master/js/velocityJS%E5%BC%B9%E5%87%BA%E5%BC%8F%E7%9B%B8%E6%A1%86/index.html<br />
 （5）模拟右键菜单，在线预览：
 http://htmlpreview.github.io/?https://github.com/gitpangshun007/baiduIFEE/blob/master/js/%E6%A8%A1%E6%8B%9F%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/index.html<br />
-（6）二叉树算法：task7预览：
+（6）二叉树算法：<br />task7预览：
 http://htmlpreview.github.io/?https://github.com/gitpangshun007/baiduIFEE/blob/master/js/%E4%BA%8C%E5%8F%89%E6%A0%91_task7/index.html<br />
                 task8预览：
                 http://htmlpreview.github.io/?https://github.com/gitpangshun007/baiduIFEE/blob/master/js/%E4%BA%8C%E5%8F%89%E6%A0%91_task8/index.html<br />
