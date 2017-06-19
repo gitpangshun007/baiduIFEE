@@ -7,7 +7,7 @@
 http://htmlpreview.github.io/?https://github.com/gitpangshun007/baiduIFEE/blob/master/css/CSS%E6%B8%90%E5%8F%98%E6%A8%A1%E7%B3%8A/index.html
 （4）CSS折叠面板：在线预览：
 http://htmlpreview.github.io/?https://github.com/gitpangshun007/baiduIFEE/blob/master/css/css%E6%8A%98%E5%8F%A0%E9%9D%A2%E6%9D%BF/Index.html
-#JS部分：
+# JS部分：
 （1）JS完美运动框架：封装的JS运动框架，可以完成诸如dom移动、放大、运动、渐变、同时运动、链式运动等情况，方便快捷，在线预览demo：https://github.com/gitpangshun007/baiduIFEE/blob/master/js/JS%E5%AE%8C%E7%BE%8E%E5%8A%A8%E7%94%BB%E6%A1%86%E6%9E%B6/index.html
 （2）音乐播放器，基本功能完成，细节需要再完善，在线预览：
 http://htmlpreview.github.io/?https://github.com/gitpangshun007/baiduIFEE/blob/master/js/douban_music/index.html
