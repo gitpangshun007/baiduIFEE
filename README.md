@@ -1,13 +1,13 @@
 # baiduIFEE
 ====================
-# CSS部分：
-*（1）CSS圆饼loading：利用CSS3制作，速度及样式均可调整。在线预览：http://htmlpreview.github.io/?https://github.com/gitpangshun007/baiduIFEE/blob/master/css/CSS-Loading/index.html<br />
-*（2）CSS制作3D图片滚动：利用CSS3制作，在线预览：http://htmlpreview.github.io/?https://github.com/gitpangshun007/baiduIFEE/blob/master/css/CSS_3D_ROLL/index.html<br />
-*（3）CSS制作模糊以及流动艺术字；利用CSS制作，在线预览：
+## CSS部分：
+（1）CSS圆饼loading：利用CSS3制作，速度及样式均可调整。在线预览：http://htmlpreview.github.io/?https://github.com/gitpangshun007/baiduIFEE/blob/master/css/CSS-Loading/index.html<br />
+（2）CSS制作3D图片滚动：利用CSS3制作，在线预览：http://htmlpreview.github.io/?https://github.com/gitpangshun007/baiduIFEE/blob/master/css/CSS_3D_ROLL/index.html<br />
+（3）CSS制作模糊以及流动艺术字；利用CSS制作，在线预览：
 http://htmlpreview.github.io/?https://github.com/gitpangshun007/baiduIFEE/blob/master/css/CSS%E6%B8%90%E5%8F%98%E6%A8%A1%E7%B3%8A/index.html<br />
 （4）CSS折叠面板：在线预览：
 http://htmlpreview.github.io/?https://github.com/gitpangshun007/baiduIFEE/blob/master/css/css%E6%8A%98%E5%8F%A0%E9%9D%A2%E6%9D%BF/Index.html<br />
-# JS部分：
+## JS部分：
 （1）JS完美运动框架：封装的JS运动框架，可以完成诸如dom移动、放大、运动、渐变、同时运动、链式运动等情况，方便快捷，在线预览demo：https://github.com/gitpangshun007/baiduIFEE/blob/master/js/JS%E5%AE%8C%E7%BE%8E%E5%8A%A8%E7%94%BB%E6%A1%86%E6%9E%B6/index.html<br />
 （2）音乐播放器，基本功能完成，细节需要再完善，在线预览：
 http://htmlpreview.github.io/?https://github.com/gitpangshun007/baiduIFEE/blob/master/js/douban_music/index.html<br />
